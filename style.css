@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;700&family=Heebo:wght@300;400;500;600;900&family=Open+Sans:wght@400;500;700&family=Raleway:wght@400;700&family=Roboto:wght@300;400&display=swap');
+*{
+   font-family: 'Heebo', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+nav,ul,li,a{
+list-style-type: none;
+text-decoration: none;
+text-align: center;
+}
+nav{
+    display: flex;
+}
+.fly{
+    margin-right: 830px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+ul,li,a{
+    padding: 8px;
+    color: hsl(0, 0%, 75%);
+    font-size: 12px;
+}
+.stores{
+    font-size: 12px;
+}
+::placeholder{
+    font-size: 10px;
+}
+.all{
+    font-size: 28px;
+}
+.input-button{
+    padding: 3px;
+    border: 1px solid hsl(0, 0%, 75%);
+    cursor: pointer;
+}
+.button-get{
+    background-color:  hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.grid-section{
+    display: grid;
+    grid-template-columns:repeat(2, 550px);
+    margin-bottom: 20px;
+}
+.grid-items{
+    margin-left: 100px;
+}
+.background-image-1{
+    background-image: url(images/bg-curve-desktop.svg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.productive{
+    font-size: 30px;
+}
+.never, .securely{
+    font-size: 12px;
+}
+.grid-items{
+    margin-left: 100px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 650px);    
+    
+}
+.fylo-works{
+    display: flex;
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgb(2, 184, 123);
+    cursor: pointer;
+}
+.white-background{
+    background-color: white;
+    font-size: 12px;
+    width: 230px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px hsl(240, 2%, 79%);
+    
+}
+.flex-design{
+    display:flex;
+}
+.founder{
+    font-size: 10px;
+}
+.CEO{
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.kyle{
+    font-weight: bold;
+}
+.blue-blue{
+    background-color:hsl(238,22%,44%);
+    color: white;
+    display: flex;
+}
+.Get-early{
+    margin-left: 100px;
+}
+.early-access{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 400px;
+}
+.check-email{
+    font-size: 8px;
+}
+.minute-sign{
+    font-size: 12px;
+}
+.button-free{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+.input-email{
+    padding: 5px 20px 5px 10px;
+    border: 1px solid rgb(197, 195, 195);
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.dark-blue{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.mail, .telephone{
+    display: flex;
+}
+.telephone-margin, .mail-margin{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.grid-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    font-size: 12px;
+    line-height: 25px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.icon-buttons{
+    border-radius: 100px;
+}
+button:hover{
+background-color:  hsl(224, 93%, 58%);
+}
+
+/* media queries */
+@media(max-width:768px){
+    nav{
+        display:flex;
+        flex-direction: column;
+    }
+    .grid-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .all {
+        font-size: 20px;
+    }
+    .stores {
+        font-size: 9px;
+    }
+    .productive {
+        font-size: 18px;
+    }
+    .never, .securely {
+        font-size: 9px;
+    }
+    .background-image-1 {
+        background-image: url(images/bg-curve-desktop.svg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .blue-blue{
+        background-color:hsl(238,22%,44%);
+        color: white;
+        display: block;
+    }
+    .early-access{
+        font-size: 27px;
+        font-weight: bold;
+        margin-right: 50px;
+        text-align: center;
+    }
+    .minute-sign {
+        font-size: 11px;
+        text-align: center;
+        margin-bottom: -65px;
+    }
+    .grid-grid{
+        display: block;
+        font-size: 12px;
+        line-height: 25px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    .fly{
+        margin-top: 10px;
+        margin-left: 50px;
+    } 
+    .grid-items{
+        margin-left: 10px;
+    } 
+    .input-email{
+        padding: 5px 20px 5px 25px;
+        border: 1px solid rgb(197, 195, 195);
+        margin-bottom: 3px;
+        cursor: pointer;
+    }
+    .button-free{
+        background-color: cornflowerblue;
+        color: white;
+        border: none;
+        font-size: 10px;
+        padding: 5px 10px 5px 25px;
+        cursor: pointer;
+    }
+    .grid-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .illustration-1{
+      height: auto;
+      max-width: 100%;
+    }
+    .Get-early{
+        margin-left: 50px;
+    }
+    .icon-buttons{
+        border-radius: 100px;
+        text-align: center;
+        align-items: center;
+    }
+    .button-free{
+        background-color: cornflowerblue;
+        color: white;
+        border: none;
+        font-size: 10px;
+        cursor: pointer;
+        margin-left: 50px; 
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+    .input-email{
+        border: 1px solid rgb(197, 195, 195);
+        margin-bottom: 5px;
+        cursor: pointer;
+        margin-left: 50px;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
